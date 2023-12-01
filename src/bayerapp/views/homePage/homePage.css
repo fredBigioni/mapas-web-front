@@ -1,0 +1,116 @@
+.banner-home {
+    position: relative;
+    float: left;
+    width: 100%;
+    transform: skewY(1deg);
+    overflow: hidden;
+    height:600px; 
+}
+.banner-home:hover img {
+    transform: scale(1.05);
+}
+
+.banner-home:hover .banner-line {
+    transform: rotate(20deg);
+}
+
+
+.banner-title {
+    left: 5%;
+    top: 10%;
+    position: absolute;
+    text-align: left;    
+    transition: right .5s ease-out;
+    height: auto;        
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background: transparent;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: right;
+    right: 0;
+    color: #fff;
+    padding: 50px 25px 25px;
+    transition: right .5s ease-out;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    z-index: 1;
+    min-height: 228px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    right: 10%;
+    padding: 60px 0 40px;
+    width: 26%;
+    height: 100%;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-line {
+    display: block;
+    position: absolute;
+    right: -30px;
+    width: 180%;
+    height: 1px;
+    border: 1px solid #ff3162;
+    border-width: 1px 0 0 0;
+    transition: right .5s ease-out;
+    transform: rotate(-12deg);
+    bottom: 260px;
+    z-index: 3;
+    right: 40.5%;
+    width: 1px;
+    height: 110%;
+    border-width: 0 0 0 1px;
+    transform: rotate(15deg);
+    top: -20px;
+    bottom: inherit;
+    transform: translateX(0) rotate(15deg);
+    -webkit-transition: transform 0.5s ease-out;
+    -moz-transition: transform 0.5s ease-out;
+    -ms-transition: transform 0.5s ease-out;
+    -o-transition: transform 0.5s ease-out;
+    transition: transform 0.5s ease-out;
+    border-color: #ff3162;
+
+}
+
+
+.angle {
+    /* display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    color: #333;
+    padding: 0;
+    transition: left .5s ease-out;
+    z-index: 1; */
+
+
+    display: block;
+    height: 100%;
+    /* background: #443247; */
+    background: #9c979d;
+    transform: skewX(-10deg);
+    left: 60%;
+    opacity: .9;
+
+    position: absolute;
+    /* left: 0; */
+    bottom: 0;
+    padding: 0;
+    z-index: 1;
+    transition: left .5s ease-out;  
+    right: 0;  
+}

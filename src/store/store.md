@@ -1,0 +1,1 @@
+#en Auth Slice se definen los puntos de menu del navbar

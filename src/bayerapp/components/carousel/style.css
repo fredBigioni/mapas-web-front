@@ -1,0 +1,67 @@
+/* Estilos para alinear a la izquierda el contenido de la clase "sidebar" */
+.sidebar {
+    display: flex;
+    flex: 3;
+    margin-top: 50px;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    gap: 30px;
+    /* Opcional: Define un espacio entre los elementos */
+    justify-content: flex-start !important;
+    /* Alinea el contenido a la izquierda */
+    align-items: flex-start !important;
+    /* Alinea los elementos horizontalmente a la izquierda */
+    padding: 20px;
+}
+
+/* Estilos para el selector de estilo combo */
+.time-selector {
+    display: flex;
+    align-items: center;
+}
+
+.time-selector span {
+    margin-right: 10px;
+}
+
+.combo {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    border: none;
+    text-align: center;
+    width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buttonsFooter{    
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-direction: row;
+    /* gap: 220px; */
+}
+.saveButton{
+    
+}
+.previewCarousel {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-direction: row;
+    margin-top: 150px;
+}

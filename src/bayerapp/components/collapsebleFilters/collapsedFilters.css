@@ -1,0 +1,15 @@
+.lmnt-expansion-panel__trigger--disabled {
+    color: rgba(0,0,0, var(--lmnt-theme-emphasis-low))
+}
+
+.expansion-demo__container {
+    padding: 8px;
+    background-color: #fff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.expansion-demo__trigger {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}

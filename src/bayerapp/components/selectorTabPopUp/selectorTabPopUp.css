@@ -1,0 +1,21 @@
+.boxSize {     
+     overflow: hidden;
+     max-height: 200px; 
+     max-width: 200px;
+}
+
+.boxSize:hover {
+    border-style: solid;
+}
+
+.zoomBox {
+    zoom: 0.2;
+    min-height: 200px !important; 
+}
+/* .zoomBox:hover {
+    zoom: 0.25;
+} */
+
+.disabled {
+    pointer-events: none;
+}

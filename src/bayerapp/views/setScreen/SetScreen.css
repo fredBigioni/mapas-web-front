@@ -1,0 +1,55 @@
+.mdc-data-table__row.status__new-patient {
+    background-color: #f5da7f;
+}
+
+.mdc-data-table__row.status__new-patient:hover {
+    background-color: rgb(178, 113, 0);
+
+    /* .mdc-data-table__cell {
+        color: #fff;
+    } */
+}
+
+.mdc-data-table__row.status__existing-patient,
+.mdc-data-table__row.status__existing-patient .mdc-data-table__cell {
+    background-color: #a4f59c;
+}
+
+.mdc-data-table__row.status__existing-patient,
+.mdc-data-table__row.status__existing-patient .mdc-data-table__cell:hover {
+    background-color: rgb(64, 166, 54);
+
+    /* .mdc-data-table__cell {
+        color: #fff;
+    } */
+}
+
+.iconClass {
+    position: fixed;
+    bottom: 15%;
+    right: 6%;
+    z-index: 9999;
+    font-size: 48px !important;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.iconClass:hover {
+    font-size: 60px !important;
+    color: #7CADEC !important;
+}
+
+.iconClasscarousel {
+    position: fixed;
+    top: 12%;
+    right: 4%;
+    z-index: 9999;
+    font-size: 48px !important;
+    color: #ea1d1d !important;
+    cursor: pointer;    
+}
+
+.iconClasscarousel:hover {
+    font-size: 60px !important;
+    color: #ec7c7c !important;
+}

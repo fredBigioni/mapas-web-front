@@ -1,0 +1,8 @@
+.bodySideBar{
+    position: relative;
+    /* width: 200px; */
+    /* background-color: red; */
+    z-index: 100;
+    float: right;
+    margin-top: 50px;
+}

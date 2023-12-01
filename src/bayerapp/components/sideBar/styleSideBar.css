@@ -1,0 +1,49 @@
+/* .sideSheet{
+    min-height:"500px";
+    background-color: red; 
+}
+
+.childExpansionContent{
+    padding-left:10px;    
+} */
+
+
+.menu-container {
+    position: fixed;
+    top: 80px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+  }
+  
+  .menu-container.open {
+    right: 0;
+    z-index: 99999;
+  }
+  
+  .menu-overlay {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;    
+  }
+  
+  .menu-overlay.open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease;      
+    z-index: 99999;  
+  }
+
+  .sidebar{
+    overflow-y: scroll;
+    
+  }
